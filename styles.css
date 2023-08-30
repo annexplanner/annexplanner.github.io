@@ -380,3 +380,10 @@ a:hover {
 }
 
 /* ... Rest of the Styles ... */
+
+.navbar{
+  padding-left:50px;
+  padding-right:600px;
+  background-color:#1D6367;
+  position: sticky;
+}
