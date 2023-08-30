@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
   <title>Annex Calendar</title>
 </head>
 <body>
@@ -23,7 +23,8 @@
     <div class="hero">
       <h1>Organize Your Life with Annex Calendar</h1>
       <p>Stay productive and manage your schedule effortlessly.</p>
-      <button class="cta-button">Get Started</button>
+      <a href="register.html" class="cta-button">Get Started</a>
+
     </div>
   </header>
 
@@ -38,19 +39,59 @@
       <h2>Sync Across Devices</h2>
       <p>Access your calendar anytime, anywhere, on any device.</p>
     </div>
-    <!-- Add more features here -->
+    <div class="feature">
+      <img src="feature-icon3.png" alt="Feature 3">
+      <h2>Smart Suggestions</h2>
+      <p>Get personalized event suggestions based on your habits.</p>
+    </div>
+    <div class="feature">
+      <img src="feature-icon4.png" alt="Feature 4">
+      <h2>Color-Coded Categories</h2>
+      <p>Organize your schedule with customizable categories.</p>
+    </div>
+  </section>
+  
+  <section class="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-options">
+      <div class="pricing-option">
+        <h3>Basic</h3>
+        <p>Free forever</p>
+        <ul>
+          <li>Limited Features</li>
+          <li>Sync on One Device</li>
+          <li>10 Events per Month</li>
+        </ul>
+        <button class="cta-button">Get Started</button>
+      </div>
+      <div class="pricing-option most-popular">
+        <h3>Pro</h3>
+        <p>$9.99/month</p>
+        <div class="popular-badge">Most Popular 🥳</div>
+        <ul>
+          <li>Full Access to Features</li>
+          <li>Sync on All Devices</li>
+          <li>Unlimited Events</li>
+        </ul>
+        <button class="cta-button">Subscribe</button>
+      </div>
+      <div class="pricing-option">
+        <h3>Enterprise</h3>
+        <p>Contact us</p>
+        <ul>
+          <li>Custom Solutions</li>
+          <li>Priority Support</li>
+          <li>Advanced Analytics</li>
+        </ul>
+        <button class="cta-button">Contact</button>
+      </div>
+    </div>
   </section>
 
   <footer class="footer">
     <p>&copy; 2023 Annex Calendar. All rights reserved.</p>
   </footer>
 
-  <script>
-    // Sample JavaScript for handling button click
-    const ctaButton = document.querySelector('.cta-button');
-    ctaButton.addEventListener('click', () => {
-      alert('Get started button clicked!');
-    });
-  </script>
+
 </body>
 </html>

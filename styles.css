@@ -101,3 +101,174 @@ body {
   text-align: center;
   padding: 20px 0;
 }
+
+/* ... Previous Styles ... */
+
+.features {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  text-align: center;
+  width: calc(25% - 40px);
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing {
+  background-color: #F6F6F6;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.pricing-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pricing-option {
+  text-align: center;
+  width: calc(50% - 40px);
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-option h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.pricing-option p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.pricing-option ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-option ul li {
+  margin-bottom: 5px;
+}
+
+/* ... Rest of the Styles ... */
+.features {
+  /* ... Previous Styles ... */
+  justify-content: center;
+}
+
+.feature {
+  /* ... Previous Styles ... */
+  width: calc(20% - 40px);
+}
+
+.pricing-option {
+  /* ... Previous Styles ... */
+  width: calc(33.33% - 40px);
+}
+
+.pricing-option h3 {
+  /* ... Previous Styles ... */
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.pricing-option p {
+  /* ... Previous Styles ... */
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.pricing-option ul {
+  /* ... Previous Styles ... */
+  margin-bottom: 25px;
+}
+
+.pricing-option ul li {
+  /* ... Previous Styles ... */
+}
+
+.pricing-option {
+  /* ... Previous Styles ... */
+  width: calc(33.33% - 40px);
+}
+
+.pricing-option h3 {
+  /* ... Previous Styles ... */
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.pricing-option p {
+  /* ... Previous Styles ... */
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.pricing-option ul {
+  /* ... Previous Styles ... */
+  margin-bottom: 25px;
+}
+
+/* ... Previous Styles ... */
+
+.most-popular {
+  border: 2px solid #1D6367;
+  box-shadow: #1d63673a 2px 2px 2px 2px;
+}
+
+.popular-badge {
+  background-color: #FFFFFF00;
+  color: #1D6367;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+/* ... Rest of the Styles ... */
+/* ... Previous Styles ... */
+
+/* Override default anchor element styles */
+a {
+  color: #FFFFFF; /* Set link text color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Add styling for hover effect on links */
+a:hover {
+  text-decoration: none; /* Add underline on hover */
+}
+
+.cta-button a {
+  color: #FFFFFF; /* Set button text color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+.cta-button a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* ... Rest of the Styles ... */
