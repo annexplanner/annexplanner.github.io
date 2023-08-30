@@ -8,22 +8,49 @@
   <title>Annex Calendar</title>
 </head>
 <body>
-  <div class="loading-container">
-    <div class="logo-container">
-      <img src="A.png" alt="Annex Logo" class="logo" width="200px">
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Annex Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Organize Your Life with Annex Calendar</h1>
+      <p>Stay productive and manage your schedule effortlessly.</p>
+      <button class="cta-button">Get Started</button>
     </div>
-    <div class="progress-container">
-      <div class="progress-bar"></div>
-      <p class="loading-text">Preparing Your Schedule</p>
+  </header>
+
+  <section class="features">
+    <div class="feature">
+      <img src="feature-icon1.png" alt="Feature 1">
+      <h2>Intuitive Interface</h2>
+      <p>Easily drag and drop events for seamless scheduling.</p>
     </div>
-  </div>
-  <div class="homepage" id="homepage">
-    <div class="homepage-content">
-      <h1>Welcome to Annex Calendar</h1>
-      <p>Organize your life with ease using our powerful scheduling and planning tool.</p>
-      <!-- Add more content here -->
+    <div class="feature">
+      <img src="feature-icon2.png" alt="Feature 2">
+      <h2>Sync Across Devices</h2>
+      <p>Access your calendar anytime, anywhere, on any device.</p>
     </div>
-  </div>
-  <script src="script.js"></script>
+    <!-- Add more features here -->
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2023 Annex Calendar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Sample JavaScript for handling button click
+    const ctaButton = document.querySelector('.cta-button');
+    ctaButton.addEventListener('click', () => {
+      alert('Get started button clicked!');
+    });
+  </script>
 </body>
 </html>
