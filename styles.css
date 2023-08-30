@@ -235,12 +235,14 @@ body {
 
 .most-popular {
   border: 2px solid #1D6367;
+  background-color: #1D6367;
   box-shadow: #1d63673a 2px 2px 2px 2px;
+  color: #FFFFFF;
 }
 
 .popular-badge {
   background-color: #FFFFFF00;
-  color: #1D6367;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 20px;
   border-radius: 5px;
@@ -269,6 +271,112 @@ a:hover {
 
 .cta-button a:hover {
   text-decoration: none; /* Remove underline on hover */
+}
+
+/* ... Rest of the Styles ... */
+
+/* ... Previous Styles ... */
+
+/* Button styling */
+.cta-button,
+.pricing-option .cta-button {
+  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
+  background-color: #1D6367;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+}
+
+.cta-button:hover,
+.pricing-option .cta-button:hover {
+  background-color: #e6e6e6; /* Change background color on hover */
+  color: #1D6367; /* Change text color on hover */
+}
+
+/* ... Rest of the Styles ... */
+
+/* ... Previous Styles ... */
+
+/* Button styling */
+.cta-button,
+.pricing-option .cta-button {
+  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
+  background-color: #1D6367;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+}
+
+.cta-button:hover,
+.pricing-option .cta-button:hover {
+  background-color: #FFFFFF; /* Change background color on hover */
+  color: #1D6367; /* Change text color on hover */
+}
+
+/* ... Rest of the Styles ... */
+
+/* ... Previous Styles ... */
+
+/* Button styling */
+.cta-button,
+.pricing-option .cta-button {
+  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
+  background-color: #1D6367;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+  text-decoration: none; /* Remove underline from buttons */
+  display: inline-block; /* Adjust display property */
+  margin-top: 10px; /* Add spacing between buttons */
+  text-align: center; /* Center button text */
+}
+
+.cta-button:hover,
+.pricing-option .cta-button:hover {
+  background-color: #e6e6e6; /* Change background color on hover */
+  color: #1D6367; /* Change text color on hover */
+}
+
+/* ... Rest of the Styles ... */
+
+/* ... Previous Styles ... */
+
+/* Button styling */
+.cta-button,
+.pricing-option .cta-button {
+  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+  text-decoration: none; /* Remove underline from buttons */
+  display: inline-block; /* Adjust display property */
+  margin-top: 10px; /* Add spacing between buttons */
+  text-align: center; /* Center button text */
+  background-color: #FFFFFF; /* Add gradient background */
+  color: #1D6367; /* Set text color */
+  border-radius: 40px;
+}
+
+.cta-button:hover,
+.pricing-option .cta-button:hover {
+  background-color: #e6e6e6; /* Reverse gradient on hover */
+  color: #1D6367; /* Change text color on hover */
+  border-radius: 40px;
 }
 
 /* ... Rest of the Styles ... */
