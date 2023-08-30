@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #F6F6F6;
+  background-color: #1D6367;
 }
 
 .header {
@@ -381,9 +381,105 @@ a:hover {
 
 /* ... Rest of the Styles ... */
 
-.navbar{
-  padding-left:50px;
-  padding-right:600px;
-  background-color:#1D6367;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #e6e6e628;
   position: sticky;
+  top: 0;
+  padding-left:50px;
+  padding-right: 600px;
+  z-index: 1000; /* Ensure it's above other elements */
 }
+
+/* Default cursor style */
+body {
+  cursor: none;
+}
+
+/* Custom cursor */
+.custom-cursor {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #1D6367;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: width 0.3s, height 0.3s;
+}
+
+/* Enlarge cursor on hover */
+a:hover ~ .custom-cursor,
+.custom-cursor.enlarge {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
+body {
+  cursor: none;
+}
+.custom-cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #1D6367;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+a:hover ~ .custom-cursor {
+  width: 30px;
+  height: 30px;
+}
+.custom-cursor.white {
+  background-color: #FFFFFF;
+}
+
+body {
+  cursor: none;
+}
+.custom-cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border: 2px solid #1D6367;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.custom-cursor.white {
+  border-color: #FFFFFF;
+}
+
+    /* ... Your existing CSS styles ... */
+    /* Add the following cursor styles */
+    body {
+      cursor: none;
+    }
+    .custom-cursor {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #FFFFFF;
+      border: 2px solid #1D6367;
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: border-color 0.3s;
+    }
+    .custom-cursor.white {
+      border-color: #FFFFFF;
+    }

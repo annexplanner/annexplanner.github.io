@@ -94,6 +94,39 @@
     <p>&copy; 2023 Annex Calendar. All rights reserved.</p>
   </footer>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const cursor = document.createElement("div");
+      cursor.classList.add("custom-cursor");
+      document.body.appendChild(cursor);
 
+      document.addEventListener("mousemove", (e) => {
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+
+        const hoveredElement = document.elementFromPoint(mouseX, mouseY);
+        if (hoveredElement) {
+          const computedStyle = getComputedStyle(hoveredElement);
+          const backgroundColor = computedStyle.backgroundColor;
+          const color = computedStyle.color;
+
+          if (backgroundColor === "rgb(29, 99, 103)") {
+            cursor.classList.add("white");
+          } else {
+            cursor.classList.remove("white");
+          }
+
+          if (color === "rgb(255, 255, 255)") {
+            cursor.classList.add("white");
+          }
+        }
+
+        const cursorX = mouseX - cursor.offsetWidth / 2;
+        const cursorY = mouseY - cursor.offsetHeight / 2;
+        cursor.style.left = `${cursorX}px`;
+        cursor.style.top = `${cursorY}px`;
+      });
+    });
+  </script>    
 </body>
 </html>
